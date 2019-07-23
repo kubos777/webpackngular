@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "target": "ES5",
+        "module": "commonjs",
+    	"moduleResolution": "node",
+        "noImplicitAny": true,
+    	"suppressImplicitAnyIndexErrors": true,
+    	"lib": ["es6", "dom"],
+    	"typeRoots": ["node_modules/@types"]
+    },
+    "exclude": ["node_modules"]
+}
